@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\bjson.c" />
+    <ClCompile Include="..\..\cutils.c" />
+    <ClCompile Include="..\..\jscompress.c" />
+    <ClCompile Include="..\..\libbf.c" />
+    <ClCompile Include="..\..\libregexp.c" />
+    <ClCompile Include="..\..\libunicode.c" />
+    <ClCompile Include="..\..\qjs.c" />
+    <ClCompile Include="..\..\qjsc.c" />
+    <ClCompile Include="..\..\quickjs.c" />
+    <ClCompile Include="..\..\quickjs-libc.c" />
+    <ClCompile Include="..\..\run-test262.c" />
+    <ClCompile Include="..\..\unicode_gen.c" />
+    <ClCompile Include="repl.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\VERSION" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\cutils.h" />
+    <ClInclude Include="..\..\libbf.h" />
+    <ClInclude Include="..\..\libregexp.h" />
+    <ClInclude Include="..\..\libregexp-opcode.h" />
+    <ClInclude Include="..\..\libunicode.h" />
+    <ClInclude Include="..\..\libunicode-table.h" />
+    <ClInclude Include="..\..\list.h" />
+    <ClInclude Include="..\..\quickjs.h" />
+    <ClInclude Include="..\..\quickjs-atom.h" />
+    <ClInclude Include="..\..\quickjs-libc.h" />
+    <ClInclude Include="..\..\quickjs-opcode.h" />
+    <ClInclude Include="..\..\unicode_gen_def.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\readme.txt" />
+    <Text Include="readme_todo.txt" />
+  </ItemGroup>
+</Project>
